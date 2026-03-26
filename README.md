@@ -157,4 +157,99 @@ Input
 F
 Output
 0
+
+<details>
+  <summary> D. Real Number Operations </summary>
+  time limit per test1 second
+memory limit per test256 megabytes
+Given a real number x
+ with exactly two decimal digits. Your task is to compute and output the following values:
+
+the absolute value of x
+ with two decimal digits
+the square root of |x|
+ truncated to two decimal digits∗
+ (without rounding)
+the floor of x
+the ceiling of x
+x
+ rounded to the nearest integer
+∗
+Given a real number x
+ and a non-negative integer d
+, let truncate(x,d)
+ denote the result of discarding all decimal digits of x
+ beyond the d
+-th position after the decimal point. This operation does not round the number; it simply removes digits, moving the value closer to zero (e.g., truncate(3.149,2)=3.14
+, truncate(−3.149,2)=−3.14
+).
+
+Input
+The only input line contains a single real number x
+ (|x|≤1018
+), given with exactly two digits after the decimal point.
+
+Output
+Print exactly five lines, each containing the result of one operation in the specified order.
+
+Scoring
+Subtask 1
+ (40
+ points): 1≤a≤104
+Subtask 2
+ (60
+ points): No additional constraints.
+For each subtask, points will be awarded based on the correctness of the following operations:
+
+Absolute value correct: 10%
+ of the subtask's points.
+Square root correct: 40%
+ of the subtask's points.
+Floor correct: 10%
+ of the subtask's points.
+Ceiling correct: 20%
+ of the subtask's points.
+Rounded correct: 20%
+ of the subtask's points.
+Examples
+Input
+17.00
+Output
+17.00
+4.12
+17
+17
+17
+Input
+5.50
+Output
+5.50
+2.34
+5
+6
+6
+Input
+4.40
+Output
+4.40
+2.09
+4
+5
+4
+Input
+4.90
+Output
+4.90
+2.21
+4
+5
+5
+Input
+-5.00
+Output
+5.00
+2.23
+-5
+-5
+-5
 </details>
