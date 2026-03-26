@@ -165,3 +165,21 @@ Input: 0 0 3 4  →  7 / 5.0000000000
 ```
 
 </details>
+
+
+<details>
+<summary>G. Count Divisibles (Easy version)</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dado un entero `n`, cuenta cuántos enteros del `1` al `n` son divisibles por `2`.
+
+**Restricciones:** `1 ≤ n ≤ 10¹⁸`
+
+**Ejemplos**
+```
+Input: 10  →  5
+Input:  7  →  3
+```
+
+</details>
