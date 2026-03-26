@@ -182,4 +182,22 @@ Input: 10  →  5
 Input:  7  →  3
 ```
 
+
+
+</details>
+<details>
+<summary>M. Sort Three Numbers</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dados tres enteros `x`, `y`, `z`, imprimirlos en orden no decreciente separados por espacios.
+
+**Restricciones:** `-10⁹ ≤ x, y, z ≤ 10⁹`
+
+**Ejemplos**
+```
+Input:  3  1  2  →  1 2 3
+Input: -5 -5  0  →  -5 -5 0
+```
+
 </details>
