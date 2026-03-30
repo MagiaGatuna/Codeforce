@@ -5,6 +5,7 @@ Mis soluciones para los problemas de Codeforces. ✨
 ---
 
 ## 📚 CPC — Primeros Pasos
+### 📝 Práctica #1
 
 <details>
 <summary>A. Hello, CPC!</summary>
@@ -199,5 +200,30 @@ Dados tres enteros `x`, `y`, `z`, imprimirlos en orden no decreciente separados 
 Input:  3  1  2  →  1 2 3
 Input: -5 -5  0  →  -5 -5 0
 ```
+
+</details>
+
+<details>
+<summary>N. Digital Root</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+La **raíz digital** de un número se obtiene sumando todos sus dígitos; si el resultado tiene más de un dígito, el proceso se repite hasta que quede un solo dígito.
+
+**Ejemplo:**
+`9875` → $9+8+7+5 = 29$ → $2+9 = 11$ → $1+1 = 2$ (resultado final).
+
+**Entrada:** Un entero `n`.  
+**Salida:** Un solo dígito entre `1` y `9`.
+
+**Restricciones:** `1 ≤ n ≤ 10¹⁸`
+
+**Subtareas:**
+- Subtarea 1 (40 pts): `1 ≤ n ≤ 10⁴`
+- Subtarea 2 (60 pts): sin restricciones adicionales
+
+**Ejemplo**
+Input: 9875  →  Output: 2
+
 
 </details>
