@@ -253,6 +253,27 @@ Output: 7 6 8 1 4
 </details>
 
 <details>
+<summary>J. Count Divisibles (Medium version)</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dado un entero positivo `n`, cuenta cuántos números del `1` al `n` (inclusive) son divisibles por **2 o por 3**.
+
+**Lógica sugerida:**
+Para no contar doble los múltiplos de ambos ($2 \times 3 = 6$), se usa la fórmula:
+$$\text{Total} = \lfloor n/2 \rfloor + \lfloor n/3 \rfloor - \lfloor n/6 \rfloor$$
+
+**Entrada:** Un solo entero `n` ($1 \le n \le 10^{18}$).  
+**Salida:** Un solo entero con la cuenta total.
+
+**Ejemplos**
+Input: 6   →  Output: 4  (2, 3, 4, 6)
+Input: 10  →  Output: 7  (2, 3, 4, 6, 8, 9, 10)
+
+
+</details>
+
+<details>
 <summary>K. Triangle Geometry: Area and Perimeter</summary>
 
 > ⏱ 1s · 💾 256 MB
