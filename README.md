@@ -5,8 +5,9 @@ Repositorio dedicado a recopilar y organizar mis soluciones a problemas de **Cod
 ---
 ## 📚 CPC — Primeros Pasos
 
-### 📚 Índice
+### 📍 Índice
 
 | 📂 [**Práctica #1**](./Practica-01/) 
+| 📂 [**Concurso #1**](./Concurso-01/) 
 | 📂 [**Práctica #2**](./Practica-02/) 
 ---
