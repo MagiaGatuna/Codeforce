@@ -47,3 +47,24 @@ Dado un entero $n$, tu tarea es determinar si $n$ es una **potencia de dos**.
 | `1024` | `1` | $2^{10} = 1024$ |
 
 </details>
+<details>
+<summary>C. Rectangle in Circle</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Se te da un rectángulo con lados de longitud $a$ y $b$, y un círculo con radio $r$. Tu tarea es determinar si el rectángulo puede colocarse completamente dentro del círculo.
+
+**Entrada:**
+- La única línea contiene tres enteros $a, b$ y $r$ ($1 \le a, b, r \le 10^9$): las longitudes de los lados del rectángulo y el radio del círculo, respectivamente.
+
+**Salida:**
+- Imprime `YES` si el rectángulo cabe dentro del círculo; de lo contrario, imprime `NO`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `3 4 3` | `YES` | Un rectángulo de 3x4 cabe en un círculo de radio 3. |
+| `5 12 6` | `NO` | Un rectángulo de 5x12 no cabe en un círculo de radio 6. |
+
+</details>
