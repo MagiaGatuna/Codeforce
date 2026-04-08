@@ -98,3 +98,27 @@ El operador aritmético puede ser uno de los siguientes:
 | `20 / 3` | `6` | $20 \div 3 = 6.66... \rightarrow 6$ |
 
 </details>
+<details>
+<summary>E. Check Between Numbers</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dados tres enteros $a$, $b$ y $n$, tu tarea es determinar si el número $n$ se encuentra entre $a$ y $b$ (inclusive), sin importar el orden de estos últimos. 
+
+Es decir, debes verificar si $n$ satisface la condición: $\min(a, b) \le n \le \max(a, b)$.
+
+**Entrada:**
+- La única línea de entrada contiene tres enteros $a, b$ y $n$ ($|a|, |b|, |n| \le 10^9$).
+
+**Salida:**
+- Imprime `YES` si $n$ está entre $a$ y $b$ (inclusive); de lo contrario, imprime `NO`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `2 5 3` | `YES` | 3 está en el rango [2, 5]. |
+| `10 5 11` | `NO` | 11 no está en el rango [5, 10]. |
+| `-3 -7 -5` | `YES` | -5 está en el rango [-7, -3]. |
+
+</details>
