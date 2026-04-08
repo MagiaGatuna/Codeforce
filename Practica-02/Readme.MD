@@ -122,3 +122,28 @@ Es decir, debes verificar si $n$ satisface la condición: $\min(a, b) \le n \le 
 | `-3 -7 -5` | `YES` | -5 está en el rango [-7, -3]. |
 
 </details>
+<details>
+<summary>F. Shelf and Door</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Tienes un estante rectangular con dimensiones $a \times b \times c$. También tienes una puerta rectangular con dimensiones $x \times y$.
+
+El estante se puede rotar en cualquier orientación y puedes intentar pasarlo a través de la puerta usando cualquiera de sus caras. Tu tarea es determinar si el estante puede pasar a través de la puerta.
+
+**Entrada:**
+- La primera línea contiene tres enteros $a, b$ y $c$ ($1 \le a, b, c \le 1000$): las dimensiones del estante.
+- La segunda línea contiene dos enteros $x$ y $y$ ($1 \le x, y \le 1000$): las dimensiones de la puerta.
+
+**Salida:**
+- Imprime `YES` si el estante puede pasar a través de la puerta; de lo contrario, imprime `NO`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `2 3 4` <br> `3 4` | `YES` | La cara de 3x4 del estante cabe exactamente en la puerta de 3x4. |
+| `5 6 7` <br> `4 4` | `NO` | Ninguna de las caras (5x6, 5x7, 6x7) cabe en una puerta de 4x4. |
+| `10 2 3` <br> `3 10` | `YES` | La cara de 2x3 del estante cabe en la puerta de 3x10. |
+
+</details>
