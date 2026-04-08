@@ -68,3 +68,33 @@ Se te da un rectángulo con lados de longitud $a$ y $b$, y un círculo con radio
 | `5 12 6` | `NO` | Un rectángulo de 5x12 no cabe en un círculo de radio 6. |
 
 </details>
+<details>
+<summary>D. Calculator</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dados dos enteros $a$ y $b$, y un operador aritmético $OP$ entre ellos, tu tarea es calcular el resultado de la expresión $a \text{ } OP \text{ } b$.
+
+El operador aritmético puede ser uno de los siguientes:
+- Suma: `+`
+- Resta: `-`
+- Multiplicación: `*`
+- División entera: `/` (el resultado es el cociente descartando el residuo).
+
+**Entrada:**
+- La única línea contiene un entero $a$, un carácter $OP$ y un entero $b$ ($|a|, |b| \le 10^9$, $OP \in \{+, -, *, /\}$).
+- Se garantiza que si el operador es `/`, entonces $b \neq 0$.
+
+**Salida:**
+- Imprime un solo entero: el resultado de la operación.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `3 + 7` | `10` | $3 + 7 = 10$ |
+| `10 - 20` | `-10` | $10 - 20 = -10$ |
+| `6 * 7` | `42` | $6 \times 7 = 42$ |
+| `20 / 3` | `6` | $20 \div 3 = 6.66... \rightarrow 6$ |
+
+</details>
