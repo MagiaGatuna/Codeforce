@@ -257,3 +257,27 @@ Debes encontrar el último dígito de manera eficiente, incluso cuando $n$ es mu
 | `0` | `1` | Por definición, $0! = 1$ |
 
 </details>
+<details>
+<summary>K. Palindrome Number</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Un **número palíndromo** es un número que se lee igual de izquierda a derecha que de derecha a izquierda. Por ejemplo, `1`, `12321`, `434` y `90709` son palíndromos, mientras que `54321` no lo es.
+
+Se te da un entero positivo que consiste de **exactamente cinco dígitos**. Tu tarea es determinar si este número es un palíndromo o no.
+
+**Entrada:**
+- La única línea de entrada contiene un solo entero $n$ ($10000 \le n \le 99999$).
+
+**Salida:**
+- Imprime `YES` si $n$ es un palíndromo; de lo contrario, imprime `NO`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `12321` | `YES` | El número se lee igual en ambos sentidos. |
+| `54321` | `NO` | Al revés es 12345, no es igual. |
+| `90709` | `YES` | El número se lee igual en ambos sentidos. |
+
+</details>
