@@ -225,3 +225,35 @@ Si los tres segmentos no pueden formar un triángulo válido, imprime `Invalid`.
 | `1 2 3` | `Invalid` | No cumple la desigualdad triangular ($1+2 \ngtr 3$). |
 
 </details>
+<details>
+<summary>J. Last Digit of Factorial</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dado un entero no negativo $n$, tu tarea es calcular el **último dígito decimal** de $n!$ (el factorial de $n$), donde:
+
+- $0! = 1$
+- $n! = 1 \cdot 2 \cdot 3 \cdot \dots \cdot n$
+
+Ten en cuenta que el factorial crece muy rápido. Por ejemplo:
+- $3! = 6$, el último dígito es $6$.
+- $5! = 120$, el último dígito es $0$.
+- $7! = 5040$, el último dígito es $0$.
+
+Debes encontrar el último dígito de manera eficiente, incluso cuando $n$ es muy grande.
+
+**Entrada:**
+- La única línea contiene un solo entero $n$ ($0 \le n \le 10^9$).
+
+**Salida:**
+- Imprime un solo entero: el último dígito decimal de $n!$.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `3` | `6` | $3! = 6$ |
+| `5` | `0` | $5! = 120$ |
+| `0` | `1` | Por definición, $0! = 1$ |
+
+</details>
