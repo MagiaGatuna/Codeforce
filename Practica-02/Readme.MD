@@ -281,3 +281,29 @@ Se te da un entero positivo que consiste de **exactamente cinco dígitos**. Tu t
 | `90709` | `YES` | El número se lee igual en ambos sentidos. |
 
 </details>
+<details>
+<summary>L. Triangle Classification II</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dados tres enteros $a$, $b$ y $c$, que representan los ángulos (en grados) de un triángulo, tu tarea es clasificar el triángulo según sus ángulos:
+
+- **Acute** (Acutángulo): Si los tres ángulos son estrictamente menores a 90 grados.
+- **Right** (Rectángulo): Si uno de los ángulos es exactamente igual a 90 grados.
+- **Obtuse** (Obtusángulo): Si uno de los ángulos es estrictamente mayor a 90 grados.
+
+**Entrada:**
+- La única línea contiene tres enteros $a, b$ y $c$ ($1 \le a, b, c$; $a + b + c = 180$): los ángulos del triángulo.
+
+**Salida:**
+- Imprime exactamente una palabra: `Acute`, `Right` u `Obtuse`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `77 75 28` | `Acute` | Todos los ángulos son < 90. |
+| `43 13 124` | `Obtuse` | 124 es mayor a 90. |
+| `90 45 45` | `Right` | Tiene un ángulo de 90. |
+
+</details>
