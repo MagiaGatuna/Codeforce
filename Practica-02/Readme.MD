@@ -363,3 +363,31 @@ Por ejemplo, si $n = 13$, entonces $13 = 8 + 4 + 1$. El número mínimo de poten
 | `13` | `3` <br> `8 4 1` | $13 = 8 + 4 + 1$ |
 
 </details>
+<details>
+<summary>O. Leap Year</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dado un entero $n$ que representa un año, tu tarea es determinar si es un **año bisiesto** (leap year).
+
+Un año se considera bisiesto si cumple las siguientes condiciones:
+1. Si $n$ es divisible por 400, es bisiesto.
+2. Si $n$ es divisible por 4 pero **no** por 100, es bisiesto.
+3. En cualquier otro caso, es un año común.
+
+**Entrada:**
+- La única línea de entrada contiene un solo entero $n$ ($1 \le n \le 10^9$): el año.
+
+**Salida:**
+- Imprime `YES` si $n$ es un año bisiesto; de lo contrario, imprime `NO`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `2000` | `YES` | Divisible por 400. |
+| `1900` | `NO` | Divisible por 4 y 100, pero no por 400. |
+| `2024` | `YES` | Divisible por 4 y no por 100. |
+| `2023` | `NO` | No es divisible por 4. |
+
+</details>
