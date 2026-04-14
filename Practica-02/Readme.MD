@@ -336,3 +336,30 @@ Las posibles respuestas son:
 | `8724 5116 2846 -1720 -4181 7998` | `0` | Las circunferencias están demasiado lejos para tocarse. |
 
 </details>
+<details>
+<summary>N. Decompose into Powers of Two</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dado un entero $n$ ($0 \le n \le 63$), tu tarea es representar $n$ como una suma de **potencias de dos distintas**. Debes encontrar el número mínimo de términos necesarios y luego imprimir las potencias utilizadas.
+
+Por ejemplo, si $n = 13$, entonces $13 = 8 + 4 + 1$. El número mínimo de potencias es 3, y las potencias son 8, 4 y 1.
+
+**Importante:** Debes imprimir las potencias en **orden descendente**.
+
+**Entrada:**
+- La única línea contiene un solo entero $n$ ($0 \le n \le 63$).
+
+**Salida:**
+- La primera línea debe contener un entero $k$: el número mínimo de potencias de dos distintas que suman $n$.
+- La segunda línea debe contener los $k$ enteros (las potencias de dos) en orden descendente. Si $k=0$, esta línea debe quedar vacía o no imprimirse.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `5` | `2` <br> `4 1` | $5 = 4 + 1$ |
+| `0` | `0` | No se requieren potencias. |
+| `13` | `3` <br> `8 4 1` | $13 = 8 + 4 + 1$ |
+
+</details>
